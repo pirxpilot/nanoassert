@@ -24,8 +24,7 @@
   ],
   "author": "Emil Bay <github@tixz.dk>",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/emilbayes/nanoassert/issues"
-  },
-  "homepage": "https://github.com/emilbayes/nanoassert#readme"
+  "files": [
+    "index.js"
+  ]
 }
