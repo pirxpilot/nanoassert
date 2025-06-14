@@ -5,15 +5,13 @@ assert.notOk = notOk;
 assert.equal = equal;
 assert.ok = assert;
 
-/* jshint -W116 */
-/* jshint -W030 */
-/* global DEBUG */
-
 function equal(a, b, m) {
+  // biome-ignore lint/suspicious/noDoubleEquals: <explanation>
   DEBUG && doAssert(equal, a == b, m);
 }
 
 function notEqual(a, b, m) {
+  // biome-ignore lint/suspicious/noDoubleEquals: <explanation>
   DEBUG && doAssert(notEqual, a != b, m);
 }
 
@@ -25,7 +23,7 @@ function assert(t, m) {
   DEBUG && doAssert(assert, t, m);
 }
 
-class AssertionError extends Error { }
+class AssertionError extends Error {}
 
 function doAssert(fn, t, m) {
   if (!t) {
