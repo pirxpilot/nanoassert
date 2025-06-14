@@ -30,7 +30,7 @@ You have to set `DEBUG` flag in your code or pass it to the bundler.
 [npm-url]: https://npmjs.org/package/@pirxpilot/nanoassert
 
 [build-url]: https://github.com/pirxpilot/nanoassert/actions/workflows/check.yaml
-[build-image]: https://img.shields.io/github/workflow/status/pirxpilot/nanoassert/check
+[build-image]: https://img.shields.io/github/actions/workflow/status/pirxpilot/nanoassert/check.yaml?branch=main
 
 [deps-image]: https://img.shields.io/librariesio/release/npm/@pirxpilot/nanoassert
 [deps-url]: https://libraries.io/npm/@pirxpilot%2Fnanoassert
