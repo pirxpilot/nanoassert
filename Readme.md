@@ -4,7 +4,7 @@
 
 # `@pirxpilot/nanoassert`
 
-Fork of [nanoassert] with added support for `DEBUG` flag.
+Fork of [nanoassert].
 
 ## Usage
 
@@ -17,8 +17,6 @@ In `package.json`:
   },
 
 ```
-
-You have to set `DEBUG` flag in your code or pass it to the bundler.
 
 ## License
 
