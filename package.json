@@ -2,7 +2,8 @@
   "name": "@pirxpilot/nanoassert",
   "version": "1.0.1",
   "description": "Nanoscale assertion module",
-  "main": "index.js",
+  "type": "module",
+  "exports": "./index.js",
   "devDependencies": {
     "@biomejs/biome": "2.4.12"
   },

@@ -1,5 +1,3 @@
-module.exports = assert;
-
 assert.notEqual = notEqual;
 assert.notOk = notOk;
 assert.equal = equal;
@@ -19,7 +17,7 @@ function notOk(t, m) {
   doAssert(notOk, !t, m);
 }
 
-function assert(t, m) {
+export default function assert(t, m) {
   doAssert(assert, t, m);
 }
 

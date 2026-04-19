@@ -1,6 +1,5 @@
-const test = require('node:test');
-
-const assert = require('./index.js');
+import test from 'node:test';
+import assert from './index.js';
 
 test('test DEBUG', t => {
   t.plan(10);
