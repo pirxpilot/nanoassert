@@ -3,9 +3,8 @@
   "version": "1.0.1",
   "description": "Nanoscale assertion module",
   "main": "index.js",
-  "dependencies": {},
   "devDependencies": {
-    "@biomejs/biome": "^1.9.4"
+    "@biomejs/biome": "2.4.12"
   },
   "scripts": {
     "test": "make check"
@@ -24,6 +23,7 @@
   ],
   "author": "Emil Bay <github@tixz.dk>",
   "license": "ISC",
+  "sideEffects": false,
   "files": [
     "index.js"
   ]
